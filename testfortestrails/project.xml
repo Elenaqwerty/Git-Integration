@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C15</id>
+				<title>Проверка цвета шрифта номера телефона в  футере слева</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;</steps>
+										<expected>цвет шрифта номера телефона  в  футере слева #004B54</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C14</id>
+				<title>Проверка размера надписи номера телефона в  футере слева</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;</steps>
+										<expected>размера надписи номера телефона  в  футере слева 205*28 рх</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C13</id>
+				<title>Проверка срабатывания иконки &quot;YouTube&quot; в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;
+3. В поле &quot;Ми в соціальних мережах&quot; нажать на иконку YouTube
+</steps>
+										<expected>После нажатия иконки &quot;YouTube&quot; в разделе &quot;Зв&apos;язатися з нами&quot; открывается страница сайта в YouTube</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C12</id>
+				<title>Проверка срабатывания иконки &quot;Linkedin&quot; в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;
+3. В поле &quot;Ми в соціальних мережах&quot; нажать на иконку Linkedin 
+</steps>
+										<expected>После нажатия иконки &quot;Linkedin&quot; в разделе &quot;Зв&apos;язатися з нами&quot; открывается страница сайта в Linkedin</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C11</id>
+				<title>Проверка срабатывания иконки &quot;Instagram&quot; в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;
+3. В поле &quot;Ми в соціальних мережах&quot; нажать на иконку Instagram 
+</steps>
+										<expected>После нажатия иконки &quot;Instagram&quot; в разделе &quot;Зв&apos;язатися з нами&quot; открывается страница сайта в Instagram</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>Проверка срабатывания иконки &quot;Facebook&quot; в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;
+3. В поле &quot;Ми в соціальних мережах&quot; нажать на иконку Facebook 
+</steps>
+										<expected>После нажатия иконки &quot;Facebook&quot; в разделе &quot;Зв&apos;язатися з нами&quot; открывается страница сайта в Facebook</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C9</id>
+				<title>Проверка срабатывания третьего номера телефона для звонка в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;
+3. Нажать на третий номер tel:+97237621598
+4. Проверить наличие открытой формы для звонка по номеру</steps>
+										<expected>Номер телефона tel:+97237621598 срабатывает для звонка</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>Проверка срабатывания второго номера телефона для звонка в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;
+3. Нажать на второй номер tel:+443305330115
+4. Проверить наличие открытой формы для звонка по номеру</steps>
+										<expected>Номер телефона tel:+443305330115 срабатывает для звонка</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Проверка срабатывания первого номера телефона для звонка в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;
+3. Нажать на первый номер tel:+380487404651
+4. Проверить наличие открытой формы для звонка по номеру</steps>
+										<expected>Номер телефона tel:+380487404651 срабатывает для звонка</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Проверка наличия иконки флага Израиля слева от номера телефона в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;
+3. Посмотреть на номер телефона +97237621598</steps>
+										<expected>Возле номера телефона +97237621598 слева есть иконка флага Израиля</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Проверка наличия иконки евро флага слева от номера телефона в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;
+3. Посмотреть на номер телефона +443305330115</steps>
+										<expected>Возле номера телефона +443305330115 слева есть иконка евро флага</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Проверка наличия иконки украинского флага слева от номера телефона в разделе &quot;Зв&apos;язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;
+3. Посмотреть на номер телефона +380487404651</steps>
+										<expected>Возле номера телефона +380487404651 слева есть иконка украинского флага</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Проверка цвета шрифта &quot;Зв&apos;язатися з нами&quot; в  футере слева</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;</steps>
+										<expected>цвет шрифта &quot;Зв&apos;язатися з нами&quot; в  футере слева #F8F8F8</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>Проверка размера надписи &quot;Зв&apos;язатися з нами&quot; в  футере слева</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной странице скролить вниз
+2. В футере слева посмотреть на &quot;Зв&apos;язатися з нами&quot;</steps>
+										<expected>размера надписи &quot;Зв&apos;язатися з нами&quot; в  футере слева 430*132 рх</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C1</id>
+				<title>Проверка наличия раздела &quot;Зв&apos;язатися з нами&quot; в  футере слева</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Зайти на сайт https://zezman.ua/ua</preconds>
+										<steps>1. На главной старинце скролить вниз
+2. В футере слева проверить наличие раздела &quot;Зв&apos;язатися з нами&quot;</steps>
+										<expected>Раздел &quot;Зв&apos;язатися з нами&quot; находиться в  футере слева</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
